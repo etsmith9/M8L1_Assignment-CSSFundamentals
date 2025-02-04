@@ -62,12 +62,13 @@ a:hover {
     transition: color 0.3s ease, text-decoration 0.3s ease; 
 }
 
-/* Question 2: recipe submission and buttons*/
+
 a.recipe-source:hover {
     color: #ff3300; 
     font-weight: normal; 
 }
 
+/* Question 2: recipe submission and buttons*/
 .submit-button {
     background-color: #5F9EA0; 
     color: white;
