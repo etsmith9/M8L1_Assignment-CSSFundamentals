@@ -1,0 +1,123 @@
+/*Task 1*/
+
+body {
+    font-family: 'Georgia', serif;    
+    line-height: normal;  
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/*Class*/
+.header {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    background-color: #98AFC7;
+    color: black;
+}
+/*Class w id combination selector for h2 elements*/
+.ingredients h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #659ec7;
+    padding: 10px;
+    border-radius: 8px;
+    color: #333;
+    text-align: center;
+}
+
+.steps {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.box {
+    margin: 10px;
+    border: 2px solid #000;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: #fff3e6;
+}
+
+/*id*/
+#ingredienttitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e6e6fa;
+}
+
+p { 
+    font-size: 16px;
+    margin-bottom: 1rem;
+} 
+
+a { /*link and hovering code*/
+    color: #0077cc; 
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff0084; 
+    text-decoration: underline; 
+    transition: color 0.3s ease, text-decoration 0.3s ease; 
+}
+
+/* Question 2: recipe submission and buttons*/
+a.recipe-source:hover {
+    color: #ff3300; 
+    font-weight: normal; 
+}
+
+.submit-button {
+    background-color: #5F9EA0; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/*Hover and submission form*/
+.submit-button:hover {
+    background-color: #5F9EA0; 
+}
+
+.form-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-container h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+input[type="text"]:focus, textarea:focus {
+    border-color: #5F9EA0;
+    outline: none;
+}
+
